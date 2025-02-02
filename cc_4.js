@@ -15,9 +15,16 @@ for (let i = 0; i < sales.length; i++) {
 console.log(`Total Sales: ${totalSales}`); // logs totalSales amount after calculation
 
 // Task 3 - Inventory Depletion
-let stock = 10; // Declared Inentory Stock as 10
+let stock = 10; // Declared Inventory Stock as 10
 console.log("Initial Stock Value", stock)
 while (stock > 0) { // Subtracts from stock until stock balance is 0
     console.log(`Stock left: ${stock}`); // Shows the amount of stock left
     stock-- // Decreases by one, allowing your computer to NOT crash
 };
+
+// Task 4 - Customer Survey
+let responses = 0; //Declared initial amount of responses as 0 
+do{
+    console.log(`Number of responses, ${responses}`); // logs the number of responses total throughout the loop
+    responses++
+} while (responses <= 3); // Will continue to log responses until there are three
