@@ -28,3 +28,13 @@ do{
     console.log(`Number of responses, ${responses}`); // logs the number of responses total throughout the loop
     responses++
 } while (responses <= 3); // Will continue to log responses until there are three
+
+// Task 5 - Employee Information
+let employee = {
+    Name: "Cinderella",
+    Position: "Maid",
+    Salary: 20000
+}; // Assign properties to the employee
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`);
+} // Log each property of the employee in a separate line
