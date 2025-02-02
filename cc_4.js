@@ -38,3 +38,9 @@ let employee = {
 for (let property in employee) {
     console.log(`${property}: ${employee[property]}`);
 } // Log each property of the employee in a separate line
+
+// Task 6 - Product Listings
+let products = ["Soap", " Vacuum", " Mop"]; // Create three products for sale
+for (let product of products) {
+    console.log(`Products for sale: ${products}`);
+} // Display the three products in a line using a template literal
