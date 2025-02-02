@@ -62,3 +62,10 @@ function applyDiscount(price) {
     return price - (price * .10); // Will calculate the amount of discount
 }
 console.log(`Discounted Price: ${applyDiscount(1000)}`); // Applys the discount based on a price of 10000
+
+// Task 10 - Loyalty Points
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount * .10); // Will calculate the number of points earned given that one point is earned for every $10 spent
+}
+let points = calculatePoints(100);
+console.log(`Points Earned: ${points}`); // Logs the number of Loyalty points earned using the calculation
