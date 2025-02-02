@@ -44,3 +44,9 @@ let products = ["Soap", " Vacuum", " Mop"]; // Create three products for sale
 for (let product of products) {
     console.log(`Products for sale: ${products}`);
 } // Display the three products in a line using a template literal
+
+// Task 7 - Order Processing
+let orders = [100, 101, 102]; // Declare theree order ID numbers
+orders.forEach((order, index) => {
+    console.log(`Order ${index + 1}: $${order}`); // Displays each of the three orders and their cooresponding prices
+});
