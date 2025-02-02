@@ -56,3 +56,9 @@ function calculateTax(amount) {
     return amount * .05; // will calculate the amount of tax charged on an order using a 5% tax rate
 }
 console.log(`Calculated Tax: ${calculateTax(5000)}`); // Will return 5% of tax on the 5000 amount
+
+// Task 9 - Discount Application
+function applyDiscount(price) {
+    return price - (price * .10); // Will calculate the amount of discount
+}
+console.log(`Discounted Price: ${applyDiscount(1000)}`); // Applys the discount based on a price of 10000
