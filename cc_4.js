@@ -13,3 +13,11 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i]
 }; // will continue to add the sales data until it includes all of them
 console.log(`Total Sales: ${totalSales}`); // logs totalSales amount after calculation
+
+// Task 3 - Inventory Depletion
+let stock = 10; // Declared Inentory Stock as 10
+console.log("Initial Stock Value", stock)
+while (stock > 0) { // Subtracts from stock until stock balance is 0
+    console.log(`Stock left: ${stock}`); // Shows the amount of stock left
+    stock-- // Decreases by one, allowing your computer to NOT crash
+};
