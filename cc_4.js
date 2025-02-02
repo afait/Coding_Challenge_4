@@ -50,3 +50,9 @@ let orders = [100, 101, 102]; // Declare theree order ID numbers
 orders.forEach((order, index) => {
     console.log(`Order ${index + 1}: $${order}`); // Displays each of the three orders and their cooresponding prices
 });
+
+// Task 8 - Tax Application
+function calculateTax(amount) {
+    return amount * .05; // will calculate the amount of tax charged on an order using a 5% tax rate
+}
+console.log(`Calculated Tax: ${calculateTax(5000)}`); // Will return 5% of tax on the 5000 amount
